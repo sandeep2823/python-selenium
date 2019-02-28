@@ -3,6 +3,7 @@ from Pages.loginPage import LoginPage
 from Pages.HomePage import HomePage
 import time
 import unittest
+import HtmlTestRunner
 import sys
 import os
 sys.path.append(os.path.join(os.path.dirname(__file__), "...", "..."))
@@ -37,3 +38,7 @@ class LoginTest(unittest.TestCase):
     def tearDownClass(cls):
         cls.driver.close()
         cls.driver.quit()
+
+
+if __name__ == '__main__':
+    unittest.main(testRunner=HtmlTestRunner.HTMLTestRunner(output='/Users/sandeepsingh/Study/projects/Python/projects/H3U/Reports'))
