@@ -1,6 +1,7 @@
 from selenium import webdriver
 from Pages.loginPage import LoginPage
 from Pages.HomePage import HomePage
+from Pages.CustomerDetailsPage import CustomerDetailsPage
 import time
 import unittest
 import HtmlTestRunner
@@ -17,7 +18,7 @@ class LoginTest(unittest.TestCase):
         cls.driver.implicitly_wait(10)
         cls.driver.maximize_window()
 
-    def test_login(self):
+    def test_customer_name_displays(self):
         driver = self.driver
         driver.get("https://www.h3u.com/itgi/#!/login/")
 
@@ -30,8 +31,11 @@ class LoginTest(unittest.TestCase):
 
         homepage = HomePage(driver)
         time.sleep(1)
-        homepage.click_on_logout()
-        time.sleep(1)
+        homepage.click_on_heath_card()
+        time.sleep(2)
+
+        customerpage = CustomerDetailsPage(driver)
+        customerpage.validate_customer_name("SUDHIR  MITTAL")
 
     @classmethod
     def tearDownClass(cls):

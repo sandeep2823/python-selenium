@@ -4,6 +4,10 @@ class HomePage:
         self.driver = driver
 
         self.logout_link_text = "Logout"
+        self.health_card_xpath = "//div[@name='mainContent']/div/div[1]"
 
     def click_on_logout(self):
         self.driver.find_element_by_link_text(self.logout_link_text).click()
+
+    def click_on_heath_card(self):
+        self.driver.find_element_by_xpath(self.health_card_xpath).click()
