@@ -24,18 +24,19 @@ class LoginTest(unittest.TestCase):
 
         login = LoginPage(driver)
         login.enter_username("12345")
-        time.sleep(1)
         login.enter_password("1234567")
-        time.sleep(1)
         login.click_login_button()
 
         homepage = HomePage(driver)
-        time.sleep(1)
         homepage.click_on_heath_card()
-        time.sleep(2)
 
         customerpage = CustomerDetailsPage(driver)
         customerpage.validate_customer_name("SUDHIR  MITTAL")
+
+        customerpage.click_customer_name()
+        time.sleep(4)
+        customerpage.validate_health_card_detail_dialogue_box("Health Card Details")
+        print("Health card detail is displayed")
 
     @classmethod
     def tearDownClass(cls):
