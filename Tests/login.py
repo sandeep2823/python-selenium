@@ -1,5 +1,5 @@
 from selenium import webdriver
-from Pages.loginPage import LoginPage
+from Pages.LoginPage import LoginPage
 from Pages.HomePage import HomePage
 import time
 import unittest

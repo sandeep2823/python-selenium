@@ -1,5 +1,5 @@
 from selenium import webdriver
-from Pages.loginPage import LoginPage
+from Pages.LoginPage import LoginPage
 from Pages.HomePage import HomePage
 from Pages.CustomerDetailsPage import CustomerDetailsPage
 import time
@@ -10,7 +10,7 @@ import os
 sys.path.append(os.path.join(os.path.dirname(__file__), "...", "..."))
 
 
-class LoginTest(unittest.TestCase):
+class E2EHealthCardTest(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         cls.driver = webdriver.Chrome(
