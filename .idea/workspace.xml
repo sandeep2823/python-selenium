@@ -3,12 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="37019107-89fa-4e97-b3da-c327605dc7eb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/HomePage.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/HomePage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/loginPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/LoginPage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Test_LoginTest_2019-03-04_23-05-51.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Test_LoginTest_2019-03-05_23-14-00.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/login.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/scenarios.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/E2E_HealthCard.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/pip-selfcheck.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/pip-selfcheck.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,12 +13,15 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/H3U$login.coverage" NAME="login Coverage Results" MODIFIED="1551372582795" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tests" />
+    <SUITE FILE_PATH="coverage/H3U$Unittests_in_login_py.coverage" NAME="Unittests in login.py Coverage Results" MODIFIED="1586792504993" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tests" />
     <SUITE FILE_PATH="coverage/H3U$ToolsAndTrackersPage.coverage" NAME="ToolsAndTrackersPage Coverage Results" MODIFIED="1552323156393" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pages" />
+    <SUITE FILE_PATH="coverage/H3U$All_TestSuites.coverage" NAME="All_TestSuites Coverage Results" MODIFIED="1586883718441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestSuites" />
     <SUITE FILE_PATH="coverage/H3U$Unittests_for_scenarios_LoginTest_test_customer_name_displays.coverage" NAME="Unittests for scenarios.LoginTest.test_customer_name_displays Coverage Results" MODIFIED="1551716007421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tests" />
     <SUITE FILE_PATH="coverage/H3U$Login.coverage" NAME="Login Coverage Results" MODIFIED="1551199797018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/H3U$Unittests_for_login_LoginTest.coverage" NAME="Unittests for login.LoginTest Coverage Results" MODIFIED="1551373597032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tests" />
     <SUITE FILE_PATH="coverage/H3U$Unittests_for_E2E_ToolsAndTrackers_E2EToolsAndTrackersTest_test_tools_and_trackers_salt_meter.coverage" NAME="Unittests for E2E_ToolsAndTrackers.E2EToolsAndTrackersTest.test_tools_and_trackers_salt_meter Coverage Results" MODIFIED="1552326091031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tests" />
     <SUITE FILE_PATH="coverage/H3U$Unittests_for_E2E_ToolsAndTrackers_E2EToolsAndTrackersTest_test_customer_name_displays.coverage" NAME="Unittests for E2E_ToolsAndTrackers.E2EToolsAndTrackersTest.test_customer_name_displays Coverage Results" MODIFIED="1552324668074" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tests" />
+    <SUITE FILE_PATH="coverage/H3U$Unittests_in_E2E_ToolsAndTrackers_py.coverage" NAME="Unittests in E2E_ToolsAndTrackers.py Coverage Results" MODIFIED="1586792551918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tests" />
     <SUITE FILE_PATH="coverage/H3U$Unittests_for_E2E_ToolsAndTrackers_E2EToolsAndTrackersTest.coverage" NAME="Unittests for E2E_ToolsAndTrackers.E2EToolsAndTrackersTest Coverage Results" MODIFIED="1552326569104" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tests" />
   </component>
   <component name="FileEditorManager">
@@ -31,8 +29,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tests/login.py">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="e#0#30#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Pages/LoginPage.py">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
               <caret line="18" selection-start-line="18" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Tests/E2E_HealthCard.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="660">
+              <caret line="44" selection-start-line="44" selection-end-line="44" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -41,10 +60,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TestSuites/All_TestSuites.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tests/E2E_ToolsAndTrackers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+            <state relative-caret-position="630">
+              <caret line="42" column="21" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -53,28 +84,15 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scratches/scratch.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Pages/CustomerDetailsPage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" selection-start-line="16" selection-end-line="19" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Pages/ToolsAndTrackersPage.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="25" column="70" lean-forward="true" selection-start-line="25" selection-start-column="70" selection-end-line="25" selection-end-column="70" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Pages/LoginPage.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="6" selection-end-column="44" />
+            <state relative-caret-position="300">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
         </entry>
@@ -110,10 +128,11 @@
         <option value="$PROJECT_DIR$/Tests/scenarios.py" />
         <option value="$PROJECT_DIR$/Pages/CustomerDetailsPage.py" />
         <option value="$PROJECT_DIR$/Tests/E2e_ToolsAndTrackers.py" />
-        <option value="$PROJECT_DIR$/Tests/E2E_HealthCard.py" />
         <option value="$PROJECT_DIR$/Pages/HomePage.py" />
         <option value="$PROJECT_DIR$/Pages/ToolsAndTrackersPage.py" />
         <option value="$PROJECT_DIR$/Tests/E2E_ToolsAndTrackers.py" />
+        <option value="$PROJECT_DIR$/Tests/E2E_HealthCard.py" />
+        <option value="$PROJECT_DIR$/TestSuites/All_TestSuites.py" />
       </list>
     </option>
   </component>
@@ -145,12 +164,22 @@
             <path>
               <item name="H3U" type="b2602c69:ProjectViewProjectNode" />
               <item name="H3U" type="462c0819:PsiDirectoryNode" />
-              <item name="Reports" type="462c0819:PsiDirectoryNode" />
+              <item name="scratches" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="H3U" type="b2602c69:ProjectViewProjectNode" />
               <item name="H3U" type="462c0819:PsiDirectoryNode" />
               <item name="Tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="H3U" type="b2602c69:ProjectViewProjectNode" />
+              <item name="H3U" type="462c0819:PsiDirectoryNode" />
+              <item name="TestSuites" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="H3U" type="b2602c69:ProjectViewProjectNode" />
+              <item name="H3U" type="462c0819:PsiDirectoryNode" />
+              <item name="venv" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -184,8 +213,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for E2E_ToolsAndTrackers.E2EToolsAndTrackersTest">
-    <configuration name="ToolsAndTrackersPage" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.All_TestSuites">
+    <configuration name="All_TestSuites" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="H3U" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -193,12 +222,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Pages" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestSuites" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pages/ToolsAndTrackersPage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TestSuites/All_TestSuites.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -238,21 +267,6 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for E2E_ToolsAndTrackers.E2EToolsAndTrackersTest.test_customer_name_displays" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="H3U" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;E2E_ToolsAndTrackers.E2EToolsAndTrackersTest.test_customer_name_displays&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="Unittests for E2E_ToolsAndTrackers.E2EToolsAndTrackersTest.test_tools_and_trackers_salt_meter" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="H3U" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -268,7 +282,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for Tests.E2E_HealthCard.LoginTest.test_customer_name_displays" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in E2E_ToolsAndTrackers.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="H3U" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -279,25 +293,40 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;Tests.E2E_HealthCard.LoginTest.test_customer_name_displays&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Tests/E2E_ToolsAndTrackers.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in login.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="H3U" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Tests/login.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Python tests.Login" />
-      <item itemvalue="Python tests.Unittests for Tests.E2E_HealthCard.LoginTest.test_customer_name_displays" />
-      <item itemvalue="Python tests.Unittests for E2E_ToolsAndTrackers.E2EToolsAndTrackersTest.test_customer_name_displays" />
-      <item itemvalue="Python.ToolsAndTrackersPage" />
       <item itemvalue="Python tests.Unittests for E2E_ToolsAndTrackers.E2EToolsAndTrackersTest" />
       <item itemvalue="Python tests.Unittests for E2E_ToolsAndTrackers.E2EToolsAndTrackersTest.test_tools_and_trackers_salt_meter" />
+      <item itemvalue="Python tests.Unittests in login.py" />
+      <item itemvalue="Python tests.Unittests in E2E_ToolsAndTrackers.py" />
+      <item itemvalue="Python.All_TestSuites" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.All_TestSuites" />
+        <item itemvalue="Python tests.Unittests in E2E_ToolsAndTrackers.py" />
+        <item itemvalue="Python tests.Unittests in login.py" />
         <item itemvalue="Python tests.Unittests for E2E_ToolsAndTrackers.E2EToolsAndTrackersTest" />
         <item itemvalue="Python tests.Unittests for E2E_ToolsAndTrackers.E2EToolsAndTrackersTest.test_tools_and_trackers_salt_meter" />
-        <item itemvalue="Python tests.Unittests for E2E_ToolsAndTrackers.E2EToolsAndTrackersTest.test_customer_name_displays" />
-        <item itemvalue="Python.ToolsAndTrackersPage" />
-        <item itemvalue="Python tests.Unittests for Tests.E2E_HealthCard.LoginTest.test_customer_name_displays" />
       </list>
     </recent_temporary>
   </component>
@@ -317,29 +346,20 @@
       <workItem from="1551714573043" duration="4183000" />
       <workItem from="1551804178519" duration="410000" />
       <workItem from="1551806217931" duration="1535000" />
-      <workItem from="1551972621400" duration="9947000" />
+      <workItem from="1551972621400" duration="11482000" />
+      <workItem from="1554738622144" duration="582000" />
+      <workItem from="1558770583485" duration="485000" />
+      <workItem from="1558800091126" duration="1549000" />
+      <workItem from="1562223851924" duration="272000" />
+      <workItem from="1586792138067" duration="547000" />
+      <workItem from="1586792722068" duration="234000" />
+      <workItem from="1586880527973" duration="5000" />
+      <workItem from="1586880561348" duration="1178000" />
+      <workItem from="1586883271911" duration="637000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_E2E_ToolsAndTrackers_E2EToolsAndTrackersTest_test_customer_name_displays - 2019.03.11 at 21h 59m 18s.xml">
-      <configuration name="Unittests for E2E_ToolsAndTrackers.E2EToolsAndTrackersTest.test_customer_name_displays" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_E2E_ToolsAndTrackers_E2EToolsAndTrackersTest_test_customer_name_displays - 2019.03.11 at 22h 00m 26s.xml">
-      <configuration name="Unittests for E2E_ToolsAndTrackers.E2EToolsAndTrackersTest.test_customer_name_displays" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_E2E_ToolsAndTrackers_E2EToolsAndTrackersTest_test_customer_name_displays - 2019.03.11 at 22h 00m 41s.xml">
-      <configuration name="Unittests for E2E_ToolsAndTrackers.E2EToolsAndTrackersTest.test_customer_name_displays" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_E2E_ToolsAndTrackers_E2EToolsAndTrackersTest_test_customer_name_displays - 2019.03.11 at 22h 19m 54s.xml">
-      <configuration name="Unittests for E2E_ToolsAndTrackers.E2EToolsAndTrackersTest.test_customer_name_displays" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_E2E_ToolsAndTrackers_E2EToolsAndTrackersTest_test_customer_name_displays - 2019.03.11 at 22h 23m 08s.xml">
-      <configuration name="Unittests for E2E_ToolsAndTrackers.E2EToolsAndTrackersTest.test_customer_name_displays" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_E2E_ToolsAndTrackers_E2EToolsAndTrackersTest - 2019.03.11 at 22h 23m 38s.xml">
-      <configuration name="Unittests for E2E_ToolsAndTrackers.E2EToolsAndTrackersTest" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_E2E_ToolsAndTrackers_E2EToolsAndTrackersTest_test_customer_name_displays - 2019.03.11 at 22h 41m 33s.xml">
       <configuration name="Unittests for E2E_ToolsAndTrackers.E2EToolsAndTrackersTest.test_customer_name_displays" configurationId="tests" />
     </history-entry>
@@ -352,9 +372,27 @@
     <history-entry file="Unittests_for_E2E_ToolsAndTrackers_E2EToolsAndTrackersTest - 2019.03.11 at 23h 19m 14s.xml">
       <configuration name="Unittests for E2E_ToolsAndTrackers.E2EToolsAndTrackersTest" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_for_E2E_ToolsAndTrackers_E2EToolsAndTrackersTest - 2019.03.11 at 23h 19m 41s.xml">
+      <configuration name="Unittests for E2E_ToolsAndTrackers.E2EToolsAndTrackersTest" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_login_py - 2020.04.13 at 21h 08m 20s.xml">
+      <configuration name="Unittests in login.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_login_py - 2020.04.13 at 21h 08m 35s.xml">
+      <configuration name="Unittests in login.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_login_py - 2020.04.13 at 21h 09m 52s.xml">
+      <configuration name="Unittests in login.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_login_py - 2020.04.13 at 21h 12m 08s.xml">
+      <configuration name="Unittests in login.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_E2E_ToolsAndTrackers_py - 2020.04.13 at 21h 12m 48s.xml">
+      <configuration name="Unittests in E2E_ToolsAndTrackers.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24317000" />
+    <option name="totallyTimeSpent" value="31341000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -369,10 +407,9 @@
     <frame x="0" y="23" width="1440" height="811" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27110156" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30615166" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Concurrent Activities Diagram" weight="0.32962447" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32962447" />
@@ -384,8 +421,10 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32962447" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32962447" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.19888735" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32962447" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" weight="0.32962447" />
+      <window_info anchor="bottom" id="Messages" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -400,34 +439,31 @@
     <entry file="file://$PROJECT_DIR$/Reports/Test_LoginTest_2019-02-28_23-17-16.html" />
     <entry file="file://$PROJECT_DIR$/Reports/Test_LoginTest_2019-02-28_23-18-14.html" />
     <entry file="file://$PROJECT_DIR$/Reports/Test_LoginTest_2019-02-28_23-19-55.html" />
-    <entry file="file://$PROJECT_DIR$/scratches/scratch.txt">
+    <entry file="file://$PROJECT_DIR$/Reports/Test_LoginTest_2019-03-04_23-05-51.html" />
+    <entry file="file://$PROJECT_DIR$/Reports/Test_LoginTest_2019-03-05_23-06-23.html" />
+    <entry file="file://$PROJECT_DIR$/Reports/Test_E2EToolsAndTrackersTest_2019-03-11_21-09-28.html" />
+    <entry file="file://$PROJECT_DIR$/Reports/allure-report/index.html" />
+    <entry file="file://$PROJECT_DIR$/Pages/ToolsAndTrackersPage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="375">
+          <caret line="25" column="70" selection-start-line="25" selection-start-column="70" selection-end-line="25" selection-end-column="70" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Reports/Test_LoginTest_2019-03-04_23-05-51.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Reports/Test_LoginTest_2019-03-05_23-06-23.html" />
-    <entry file="file://$PROJECT_DIR$/Tests/login.py">
+    <entry file="file://$PROJECT_DIR$/Pages/LoginPage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/E2E_HealthCard.py">
+    <entry file="file://$PROJECT_DIR$/scratches/scratch.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pages/CustomerDetailsPage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="300">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
@@ -438,36 +474,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Pages/CustomerDetailsPage.py">
+    <entry file="file://$PROJECT_DIR$/Tests/E2E_HealthCard.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" selection-start-line="16" selection-end-line="19" selection-end-column="46" />
+        <state relative-caret-position="660">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pages/LoginPage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="6" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pages/ToolsAndTrackersPage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="25" column="70" lean-forward="true" selection-start-line="25" selection-start-column="70" selection-end-line="25" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Reports/Test_E2EToolsAndTrackersTest_2019-03-11_21-09-28.html">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Tests/E2E_ToolsAndTrackers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+        <state relative-caret-position="630">
+          <caret line="42" column="21" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestSuites/All_TestSuites.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
