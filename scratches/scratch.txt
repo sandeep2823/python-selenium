@@ -1,2 +1,3 @@
 sandeepsingh at sandeeps-MacBook-Air in ~/Study/projects/Python/projects/H3U on master [!?]
 $ python -m Tests.scenarios
+TestSuites.All_TestSuites
