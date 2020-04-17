@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37019107-89fa-4e97-b3da-c327605dc7eb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tests/login.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drivers/chromedriver 2" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,7 +18,7 @@
     <SUITE FILE_PATH="coverage/H3U$Unittests_for_scenarios_LoginTest_test_customer_name_displays.coverage" NAME="Unittests for scenarios.LoginTest.test_customer_name_displays Coverage Results" MODIFIED="1551716007421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tests" />
     <SUITE FILE_PATH="coverage/H3U$Login.coverage" NAME="Login Coverage Results" MODIFIED="1551199797018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/H3U$Unittests_for_E2E_ToolsAndTrackers_E2EToolsAndTrackersTest_test_tools_and_trackers_salt_meter.coverage" NAME="Unittests for E2E_ToolsAndTrackers.E2EToolsAndTrackersTest.test_tools_and_trackers_salt_meter Coverage Results" MODIFIED="1552326091031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tests" />
-    <SUITE FILE_PATH="coverage/H3U$Unittests_for_login_LoginTest.coverage" NAME="Unittests for login.LoginTest Coverage Results" MODIFIED="1587131653024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tests" />
+    <SUITE FILE_PATH="coverage/H3U$Unittests_for_login_LoginTest.coverage" NAME="Unittests for login.LoginTest Coverage Results" MODIFIED="1587132391202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tests" />
     <SUITE FILE_PATH="coverage/H3U$Unittests_for_E2E_ToolsAndTrackers_E2EToolsAndTrackersTest_test_customer_name_displays.coverage" NAME="Unittests for E2E_ToolsAndTrackers.E2EToolsAndTrackersTest.test_customer_name_displays Coverage Results" MODIFIED="1552324668074" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tests" />
     <SUITE FILE_PATH="coverage/H3U$Unittests_in_E2E_ToolsAndTrackers_py.coverage" NAME="Unittests in E2E_ToolsAndTrackers.py Coverage Results" MODIFIED="1586792551918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tests" />
     <SUITE FILE_PATH="coverage/H3U$Unittests_for_login_LoginTest_test_login.coverage" NAME="Unittests for login.LoginTest.test_login Coverage Results" MODIFIED="1587131632020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tests" />
@@ -31,8 +29,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Tests/login.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-41">
-              <caret line="14" column="38" lean-forward="true" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+            <state relative-caret-position="165">
+              <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -235,7 +233,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for E2E_ToolsAndTrackers.E2EToolsAndTrackersTest">
+  <component name="RunManager" selected="Python tests.Unittests for login.LoginTest">
     <configuration name="All_TestSuites" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="H3U" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -344,8 +342,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for E2E_ToolsAndTrackers.E2EToolsAndTrackersTest" />
         <item itemvalue="Python tests.Unittests for login.LoginTest" />
+        <item itemvalue="Python tests.Unittests for E2E_ToolsAndTrackers.E2EToolsAndTrackersTest" />
         <item itemvalue="Python tests.Unittests for login.LoginTest.test_login" />
         <item itemvalue="Python tests.Unittests in login.py" />
         <item itemvalue="Python.All_TestSuites" />
@@ -387,14 +385,11 @@
       <workItem from="1587126932047" duration="1274000" />
       <workItem from="1587128841775" duration="1686000" />
       <workItem from="1587130984447" duration="456000" />
-      <workItem from="1587131491218" duration="254000" />
+      <workItem from="1587131491218" duration="815000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_login_py - 2020.04.17 at 18h 58m 11s.xml">
-      <configuration name="Unittests in login.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_login_LoginTest_test_login - 2020.04.17 at 19h 19m 04s.xml">
       <configuration name="Unittests for login.LoginTest.test_login" configurationId="tests" />
     </history-entry>
@@ -422,9 +417,12 @@
     <history-entry file="Unittests_for_E2E_ToolsAndTrackers_E2EToolsAndTrackersTest - 2020.04.17 at 19h 24m 36s.xml">
       <configuration name="Unittests for E2E_ToolsAndTrackers.E2EToolsAndTrackersTest" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_for_login_LoginTest - 2020.04.17 at 19h 36m 32s.xml">
+      <configuration name="Unittests for login.LoginTest" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40213000" />
+    <option name="totallyTimeSpent" value="40774000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -444,7 +442,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32962447" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32962447" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -453,7 +451,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32962447" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.42141864" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.42141864" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32962447" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" weight="0.32962447" />
       <window_info anchor="bottom" id="Messages" order="14" />
@@ -552,8 +550,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Tests/login.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-41">
-          <caret line="14" column="38" lean-forward="true" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+        <state relative-caret-position="165">
+          <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>
