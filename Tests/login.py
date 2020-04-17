@@ -12,8 +12,7 @@ sys.path.append(os.path.join(os.path.dirname(__file__), "...", "..."))
 class LoginTest(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        cls.driver = webdriver.Chrome(
-            executable_path="/usr/local/bin/chromedriver")
+        cls.driver = webdriver.Chrome("/Users/sandeepsingh/Study/projects/Python/projects/H3U/drivers/chromedriver 2")
         cls.driver.implicitly_wait(10)
         cls.driver.maximize_window()
 
