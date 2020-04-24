@@ -7,14 +7,21 @@ import unittest
 import HtmlTestRunner
 import sys
 import os
+from selenium.webdriver.chrome.options import Options
 sys.path.append(os.path.join(os.path.dirname(__file__), "...", "..."))
 
 
 class E2EHealthCardTest(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
+        chrome_options = Options()
+        chrome_options.add_argument("--headless")
+        chrome_options.add_argument("--disable-gpu")
+
+        chrome_options.add_argument("window-size=1800x1080")
         cls.driver = webdriver.Chrome(
-            executable_path="./drivers/chromedriver")
+            executable_path="./drivers/chromedriver",
+        chrome_options=chrome_options)
         cls.driver.implicitly_wait(10)
         cls.driver.maximize_window()
 

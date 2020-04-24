@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="37019107-89fa-4e97-b3da-c327605dc7eb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/login.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/E2E_HealthCard.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/E2E_HealthCard.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,11 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tests/login.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="224">
-              <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+              <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -40,11 +39,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Tests/E2E_HealthCard.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+            <state relative-caret-position="172">
+              <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -143,8 +142,8 @@
         <option value="$PROJECT_DIR$/scratches/scratch.txt" />
         <option value="$PROJECT_DIR$/dockerfile" />
         <option value="$PROJECT_DIR$/Tests/E2E_ToolsAndTrackers.py" />
-        <option value="$PROJECT_DIR$/Tests/E2E_HealthCard.py" />
         <option value="$PROJECT_DIR$/Tests/login.py" />
+        <option value="$PROJECT_DIR$/Tests/E2E_HealthCard.py" />
       </list>
     </option>
   </component>
@@ -389,6 +388,7 @@
       <workItem from="1587130984447" duration="456000" />
       <workItem from="1587131491218" duration="815000" />
       <workItem from="1587735969495" duration="540000" />
+      <workItem from="1587738681091" duration="817000" />
     </task>
     <servers />
   </component>
@@ -425,7 +425,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42146000" />
+    <option name="totallyTimeSpent" value="42963000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -439,7 +439,7 @@
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="811" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.36123034" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3662375" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -493,17 +493,7 @@
     <entry file="file://$PROJECT_DIR$/Tests/login.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
-          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/E2E_HealthCard.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>
@@ -558,6 +548,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="71" selection-start-line="16" selection-start-column="71" selection-end-line="16" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/E2E_HealthCard.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
