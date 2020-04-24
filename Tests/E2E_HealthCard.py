@@ -19,6 +19,8 @@ class E2EHealthCardTest(unittest.TestCase):
         chrome_options.add_argument("--disable-gpu")
 
         chrome_options.add_argument("window-size=1800x1080")
+
+        chrome_options.add_argument("--disable-dev-shm-usage")
         cls.driver = webdriver.Chrome(
             executable_path="/usr/bin/chromedriver",
         chrome_options=chrome_options)
