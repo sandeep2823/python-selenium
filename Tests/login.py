@@ -6,6 +6,7 @@ import unittest
 import HtmlTestRunner
 import sys
 import os
+from selenium.webdriver.chrome.options import Options
 sys.path.append(os.path.join(os.path.dirname(__file__), "...", "..."))
 
 
