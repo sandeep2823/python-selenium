@@ -13,7 +13,7 @@ class LoginTest(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         cls.driver = webdriver.Chrome(
-            executable_path="./drivers/chromedriver")
+            executable_path="/usr/bin/chromedriver")
         cls.driver.implicitly_wait(10)
         cls.driver.maximize_window()
 
