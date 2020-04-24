@@ -20,7 +20,7 @@ class E2EHealthCardTest(unittest.TestCase):
 
         chrome_options.add_argument("window-size=1800x1080")
         cls.driver = webdriver.Chrome(
-            executable_path="./drivers/chromedriver",
+            executable_path="/usr/bin/chromedriver",
         chrome_options=chrome_options)
         cls.driver.implicitly_wait(10)
         cls.driver.maximize_window()
