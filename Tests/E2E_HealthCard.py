@@ -14,16 +14,28 @@ sys.path.append(os.path.join(os.path.dirname(__file__), "...", "..."))
 class E2EHealthCardTest(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        chrome_options = Options()
-        chrome_options.add_argument("--headless")
-        chrome_options.add_argument("--disable-gpu")
+        chromeOptions = Options()
+        # chrome_options.add_argument("--headless")
+        # chrome_options.add_argument("--disable-gpu")
+        #
+        # chrome_options.add_argument("window-size=1800x1080")
+        #
+        # chrome_options.add_argument("--disable-dev-shm-usage")
+        chromeOptions.add_experimental_option("prefs", {"profile.managed_default_content_settings.images": 2})
+        chromeOptions.add_argument("--no-sandbox")
+        chromeOptions.add_argument("--disable-setuid-sandbox")
 
-        chrome_options.add_argument("window-size=1800x1080")
+        chromeOptions.add_argument("--remote-debugging-port=9222")  # this
 
-        chrome_options.add_argument("--disable-dev-shm-usage")
+        chromeOptions.add_argument("--disable-dev-shm-using")
+        chromeOptions.add_argument("--disable-extensions")
+        chromeOptions.add_argument("--disable-gpu")
+        chromeOptions.add_argument("start-maximized")
+        chromeOptions.add_argument("disable-infobars")
+        chromeOptions.add_argument("--headless")
         cls.driver = webdriver.Chrome(
             executable_path="/usr/bin/chromedriver",
-        chrome_options=chrome_options)
+        chrome_options=chromeOptions)
         cls.driver.implicitly_wait(10)
         cls.driver.maximize_window()
 
