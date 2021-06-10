@@ -8,7 +8,7 @@ chromedriver==2.24.1
 click==6.7
 concurrencytest==0.1.2
 configobj==5.0.6
-Django==1.11
+Django==2.2.24
 enum34==1.1.6
 extras==1.0.0
 fauxfactory==3.0.2
